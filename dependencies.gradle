@@ -1,0 +1,14 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+//    kotlin_version = '1.2.41'
+    androidBuildToolsVersion = "26.0.2"
+    androidMinSdkVersion = 15
+    androidTargetSdkVersion = 28
+    androidCompileSdkVersion = 28
+    supportLibraryVersion = '26.0.2'
+}
